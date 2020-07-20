@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+    font-family:Courier;
+}
+
+#name {
+    font-size:100px;
+    font-family: American Typewriter, serif;
+    border-style: 4mm ridge rgba(170, 50, 220, .6);
+}
+
+.cover {
+    width: 240px;
+    height: 300px; 
+}
+
+div.polaroid {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 5%;
+}
+
+div.container {
+  text-align: center;
+  padding: 0px 0px;
+}
+
+#mydiv{
+    font-size:30px;
+}
+
+#mydiv a{
+    font-size:20px;
+}
+
+.row {
+    margin: 0 10% 0 10%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img:hover {
+  box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);
+}
+
+#hunter{
+  border: 20px solid white;
+  border-radius: 10px;
+}
+
+img{
+    border: 1px black;
+}
+
+.animated-text {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlSv3-rEzO2fFoHKJmdHmIgkdNG-htmde_tw&usqp=CAU");
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+    font-size: 100px
+}
+@-webkit-keyframes stripes {
+100% {
+    background-position: 0 -50px;
+}
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.description{
+  font-style: italic;
+  font-size: 15px;
+  font-family: Didot, serif;
+
+}
+
+a:hover {
+  background-color:  lightseagreen;
+}
